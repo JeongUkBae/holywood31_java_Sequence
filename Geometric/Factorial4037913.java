@@ -1,4 +1,4 @@
-package Geometric;
+package geometric;
 /**
  * 1 = 1
  * 2 = 2 * 1   = 2

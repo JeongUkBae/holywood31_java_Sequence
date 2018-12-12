@@ -1,4 +1,4 @@
-package Geometric;
+package geometric;
 /**
  * 등비수열 : 각 항이 그 앞 항과. 일정한 비를 가지는 수열
  *	공비(共比, common ratio)
