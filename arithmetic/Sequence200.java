@@ -23,11 +23,22 @@ public class Sequence200 {
         int N = 2;
         int AN = 0;
         while(true){
-            
-            // 이 곳을 채우시오
-            
+            for(int i=2; i<201; i++) {
+            	i = i;
+            	AN = A+D;
+            	S += AN;
+            	if(i<201) {
+            		A += D;
+            		//AN += A;
+            		System.out.println("count is "+i+", Number is "+A+", Sum is "+S);
+            		
+            	} else {
+            		
+            	} break;
+            } 
+            System.out.println("S is "+S);
+            break;
         }
-        //System.out.println("S is "+ S);
 		
 	}
 }
