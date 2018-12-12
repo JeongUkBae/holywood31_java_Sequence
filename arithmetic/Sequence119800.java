@@ -23,22 +23,16 @@ public class Sequence119800 {
         int N = 2;
         int AN = 0;
         while(true){
-            for(int i=2; i<201; i++) {
-            	i = i;
-            	AN = A+D;
-            	S += AN;
-            	if(i<201) {
-            		A += D;
-            		//AN += A;
-            		System.out.println("count is "+i+", Number is "+A+", Sum is "+S);
-            		continue;
-            	} else {
-            		
-            	} break;
-            } 
-            System.out.println("S is "+S);
-            break;
+        	AN = A + (N-1)*D;
+        	S += AN;
+        	N++;
+        	System.out.printf("Count is %d, Number is %d, Sum is %d \n",
+        			(N-1),AN,S);
+        	if(N==201) {
+        		
+        		break;
+        	}
         }
-		
+        System.out.printf("S is %d",S);
 	}
 }

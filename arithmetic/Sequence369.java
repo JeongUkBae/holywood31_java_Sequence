@@ -5,10 +5,14 @@ package arithmetic;
  */
 public class Sequence369 {
 	public static void main(String[] args) {
-		for (int i = 1; i < 11; i++) {
+		String res = "";
+		for (int i = 0; i < 10; i++) {
+			if((i + 1)%3!=0) {
+					res += (i + 1)+" ";
+				}
+			}	
 
 			// 이곳을 채우시오
-		}
-
+		System.out.println(res);
 	}
 }
