@@ -25,7 +25,7 @@ public class Factorization {
 		
 		if(target <2) {
 			return; // 유효성체크
-		 
+	/*	 
 		while(true) {
 			if(target%a==0) {
 				
@@ -37,8 +37,8 @@ public class Factorization {
 		
 		System.out.println(res[i]);
 		}
-		
+		*/
 		//System.out.println(res[i]+"");
 		
 	}
-}
+	}}
